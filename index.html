@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login</title>
+    <link rel="shortcut icon" href="736672-200.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body >
+    <div class="container mt-4">
+    <div class="d-flex align-items-center justify-content-center shadow-lg border-3 w-75 m-auto">
+    <div class="w-75 mx-auto my-5 user-info">
+        <h2 class="text-center pb-4 text-white">Smart Login System</h2>
+
+        <input type="email" class="form-control mb-3" id="userEmailInput" placeholder="Enter your email">
+        <div id="emailAlert" class="alert alert-danger d-none ">please enter valid email</div>
+
+        <input type="password" class="form-control mb-3" id="userPasswordInput" placeholder="Enter your password">
+        <div id="fillAlert" class="alert text-danger d-none text-center ">fill the inputs first</div>
+        <div id="loginAlert" class="alert text-danger d-none text-center ">your email or password is incorrect</div>
+
+        <div class="d-grid gap-2 pt-4">
+            <button class="btn btn-outline-info" id="addBtn" onclick="signInUser()"; type="button">Login</button>
+          </div>
+          <p class="text-center text-white pt-3">don't have an accoount? <span><a class="text-decoration-none text-white " href="signUp.html">Sign Up</a> </span> </p>
+
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/index.js" ></script>
+</body>
+</html>

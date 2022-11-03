@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="d-flex align-items-center justify-content-center shadow-lg border-3 w-75 m-auto">
+        <div class="w-75 mx-auto my-5 user-info">
+            <h2 class="text-center pb-4 text-white">Smart Login System</h2>
+    
+            <input type="text" class="form-control mb-3" id="userNameInput" placeholder="Enter your name">
+            <div id="nameAlert" class="alert alert-danger d-none ">please enter your name start with A-Z</div>
+            <input type="email" class="form-control mb-3" id="userEmailInput" placeholder="Enter your email">
+            <div id="emailAlert" class="alert alert-danger d-none ">please enter valid email using (gmail-yahoo-ymail) like example@gmail.com</div>
+
+            <input type="password" class="form-control mb-3" id="userPasswordInput" placeholder="Enter your password">
+            <div id="passAlert" class="alert alert-danger d-none ">please enter password with 5 number only</div>
+
+            <div id="finishSignUp" class="alert d-none text-center text-success ">success</div>
+
+            <div class="d-grid gap-2 pt-4"> 
+                <button class="btn btn-outline-info" onclick="signUpUser()"; type="button">Sign Up</button>
+              </div>
+              <p class="text-center text-white pt-3">you have an accoount?  <span><a class="text-decoration-none text-white " href="index.html">Sign In</a> </span> </p>
+    
+        </div>
+        </div>
+        </div>
+    
+
+
+
+
+    
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/index.js" ></script>
+
+</body>
+</html>
